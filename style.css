@@ -1,0 +1,204 @@
+﻿
+body, html {
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.container {
+    height: 750px;
+    width: 1336px;
+    display: grid;
+    grid-gap: 8px 8px;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(100, 55px);
+}
+
+
+
+.navbar {
+    grid-row: 1/span 2;
+    grid-column: 1/span6;
+    font-family: 'Oswald', sans-serif;
+    color: #66542D;
+    font-size: 28px;
+    float: right;
+    border-bottom: 5px double #66542D;
+    border-bottom-style: double;
+    text-align: center;
+}
+
+
+
+li {
+    display: inline-flex;
+}
+
+
+
+    li a {
+        color: black;
+        font-family: 'Oswald', sans-serif;
+    }
+
+
+
+        li a:hover {
+            color: gray;
+            text-decoration: none;
+        }
+
+
+
+.portfolioImage {
+    grid-row: 4/span 9;
+    grid-column: 2/span 5;
+}
+
+
+
+.portfolioImageBorder {
+    grid-row: 12/span 1;
+    grid-column: 1/span 6;
+    border-bottom: 5px double #66542D;
+    border-bottom-style: double;
+    color: white;
+}
+
+
+
+.aboutPhoto {
+    grid-row: 14/span 5;
+    grid-column: 2/span 3
+}
+
+
+
+.aboutMe {
+    grid-row: 14/span 5;
+    grid-column: 4/span 3;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+
+.aboutBorder {
+    grid-row: 21/span 1;
+    grid-column: 1/span 6;
+    border-bottom: 5px double #66542D;
+    border-bottom-style: double;
+    color: white;
+}
+
+
+
+.virtualPetShelterPhoto {
+    grid-row: 23/span 5;
+    grid-column: 2/span 3;
+}
+
+
+
+.virtualPetShelterDescription {
+    grid-row: 23/span 5;
+    grid-column: 5/span 3;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+
+.virtualPetShelterBorder {
+    grid-row: 28/span 1;
+    grid-column: 1/span 6;
+    border-bottom: 5px double #66542D;
+    border-bottom-style: double;
+    color: white;
+}
+
+
+
+.lifeIsStrangeDescription {
+    grid-row: 30/span 5;
+    grid-column: 2/span 2;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+
+.lifeIsStrangePhoto {
+    grid-row: 30/span 5;
+    grid-column: 4/span 3;
+}
+
+
+
+.lifeIsStrangeBorder {
+    grid-row: 35/span 1;
+    grid-column: 1/span 6;
+    border-bottom: 5px double #66542D;
+    border-bottom-style: double;
+    color: white;
+}
+
+
+
+.fortuneTellerPhoto {
+    grid-row: 37/span 5;
+    grid-column: 2/span 3;
+}
+
+
+
+.fortuneTellerDescription {
+    grid-row: 37/span 5;
+    grid-column: 5/span 3;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+
+.fortuneTellerBorder {
+    grid-row: 42/span 1;
+    grid-column: 1/span 6;
+    border-bottom: 5px double #66542D;
+    border-bottom-style: double;
+    color: white;
+}
+
+
+
+.virtualPetDescription {
+    grid-row: 44/span 5;
+    grid-column: 2/span 2;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+
+.virtualPetPhoto {
+    grid-row: 44/span 5;
+    grid-column: 4/span 3;
+}
+
+
+
+.virtualPetBorder {
+    grid-row: 49/span 1;
+    grid-column: 1/span 6;
+    border-bottom: 5px double #66542D;
+    border-bottom-style: double;
+    color: white;
+}
+
+
+
+.footer {
+    grid-row: 50/span 2;
+    grid-column: 1/span 6;
+    font-family: 'Oswald', sans-serif;
+    color: #66542D;
+    font-size: 28px;
+    float: right;
+    text-align: center;
+}
